@@ -1,0 +1,13 @@
+interface:
+  display_name: Polygon 出题
+  short_description: 用 Codeforces Polygon 编写、验题和打包算法题
+  default_prompt: 使用 $polygon 检查我指定的 Polygon 题目的题面、测试和打包状态。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
